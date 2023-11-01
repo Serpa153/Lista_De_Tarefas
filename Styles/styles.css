@@ -1,0 +1,78 @@
+/*Fontes importadas*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300;400;500;700&family=Quicksand:wght@300&family=Raleway:ital@1&display=swap');
+  
+/*Cores e fonte*/
+:root {
+    --cor-preta: #0000;
+
+    --font-main: 'Raleway';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.cabecalho {
+font-size: 2.25rem;
+font-family: var(--font-main);
+text-align: center;
+
+input {
+border: none;
+border-radius: 10px;
+width: 330px;
+height: 40px;
+padding-left: 10px;
+outline: none;
+
+}
+
+.botao_add_task {
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    background-color: #d1d1d1;
+    
+}
+
+}
+
+body {
+    background-color: 	#98FB98;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+}
+
+.container {
+    background-color: #d1d1d1;
+    width: 500px;
+    border-radius: 12px;
+    padding: 20px;
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;*/
+    margin: 100px auto 0;
+
+}
+
+.opcoes {
+font-family: var(--font-main);
+
+}
+
+.icons {
+    height: 25px;
+
+}
+
+.rodape {
+    font-family: var(--font-main);
+    padding: 25px;
+    text-align: center;
+    font-size: 0.95rem;
+
+}

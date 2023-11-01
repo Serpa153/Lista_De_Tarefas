@@ -1,0 +1,211 @@
+/*FONT FAMILY*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Poppins:wght@300;400;500;700&family=Quicksand:wght@300&family=Raleway:ital@1&display=swap');
+  
+/*COLOR*/
+:root {
+--main-color: #333;
+--midle-color:#444;
+--midle2: #395169;
+--midle3: #fff;
+
+}
+/* ALL*/
+* {
+    font-family: 'Bebas Neue';
+    padding: 0;
+    margin: 0;
+    /*reset para input*/
+    box-sizing: border-box;
+    
+  }
+
+  header {
+    border-radius: 12px;
+    
+  }
+  
+  /*BODY*/
+  body {
+    background: #000;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+ 
+  }
+  
+  button {
+    color: var(--midle3);
+    border-radius: 15px;
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+
+  }
+  
+  /*ICONE*/
+  button:hover {
+    background-color: #000;
+
+  }
+  
+  /*ICONE DENTRO*/
+  button:hover > i {
+    color: #ffffff;
+
+  }
+  
+  button i {
+    pointer-events: none;
+    color: #000;
+   
+  }
+
+  input,
+  select {
+    padding: 0.25rem 0.5rem;
+
+  }
+  
+  .input_task {
+    padding: 0.25rem 0.5rem;
+    width: 50%;
+    margin-right: 0.3rem;
+    border-radius: 5px;
+
+  }
+
+  select {
+    padding: 0.25rem 0.5rem;
+
+  }
+  
+  .hide {
+    display: none;
+
+  }
+  
+  /* HEADER */
+  .todo-container {
+    max-width: 550px;
+    margin: 5rem auto 0;
+    background:#fffcfc;
+    padding: 3rem;
+    border-radius: 15px;
+
+  }
+  
+  /*CENTRALIZANDO TITLE*/
+  .todo-container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    color: var(--midle-color);
+    font-size: 25px;
+    
+  }
+  
+  /*FORM*/
+  #todo-form,
+  #edit-form {
+    padding: 1rem;
+    
+  }
+  
+  #todo-form p,
+  #edit-form p {
+    font-weight: bold;
+    color: var(--main-color);
+
+  }
+  
+  .form-control {
+    display: flex;
+   
+  }
+  
+  .form-control input {
+    border-radius: 5px;
+    margin-right: 0.3rem;
+
+  }
+  
+  #cancel-edit-btn {
+    margin-top: 1rem;
+    color: var(--midle2);
+
+  }
+
+  
+  /*TOOLBAR */
+  #toolbar {
+    padding: 1rem;
+    display: flex;
+
+  }
+  
+  #toolbar h4 {
+    margin-bottom: 0.6rem;
+
+  }
+  
+  /*PESQUISA*/
+  #search {
+    color: var(--midle-color);
+    
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  #search form {
+    display: flex;
+
+  }
+  
+  #search input {
+    color: var(--main-color);
+    width: 100%;
+    margin-right: 0.3rem;
+    border-radius: 5px;
+
+  }
+  
+  /* LIST */
+  .todo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    transition: 0.3s;
+
+  }
+  
+  .todo h3 {
+    color: var(--main-color);
+    flex: 1;
+    font-size: 1rem;
+
+  }
+  
+  /*BOTOES DE TAREFAS RODAPE*/
+  .todo button {
+    margin-left: 0.4rem;
+
+  }
+  
+  .done {
+    background: var(--midle2);
+
+  }
+  
+  .done h3 {
+    color: var(--midle2);
+    text-decoration: line-through;
+    font-style: bold;
+
+  }
+

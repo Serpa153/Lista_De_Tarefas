@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREFAS</title>
+    <!--CSS & JS-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+  <body>
+ 
+    <div class="todo-container">
+      <header>
+        <h1>TAREFAS</h1>
+      </header>
+      <!--form(adicione) "id" p JavaScript-->
+      <form id="todo-form">
+        <p>ADICIONAR TAREFAS</p>
+        <div class="form-control">
+          <input class="input_task" type="text" id="todo-input"/>
+          <!--icon plus awesome
+           form ADICIONAR-->
+          <button type="submit">
+             <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+      </form>
+      <!--form EDIT-->     
+      <form id="edit-form" class="hide">
+        <p>EDITAR TAREFAS</p>
+        <div class="form-control">
+          <input type="text" id="edit-input"/>
+          <button type="submit">
+          <!--botão CONFIRM EDIT--> 
+            <i class="fa-solid fa-check-double"></i>
+          </button>
+        </div>
+      </form>
+      <!--lista de tarefas botões FINALIZADO/EDITAR/ADICIONAR/DELETAR-->
+      <div id="todo-list"></div>
+     
+  </body>
+</html>
